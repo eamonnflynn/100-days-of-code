@@ -1,4 +1,6 @@
 ﻿@page "/counter"
+@using Microsoft.Extensions.Logging
+@inject ILogger<Counter> logger
 
 <PageTitle>Counter</PageTitle>
 
@@ -13,6 +15,7 @@
 
     private void IncrementCount()
     {
+        logger.LogWarning("Clicking increment");
         currentCount++;
     }
 }
