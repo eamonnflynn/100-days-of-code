@@ -1,5 +1,8 @@
 # I've joined the #100DaysOfCode Challenge
 
+I am going to split my time between learning Blazor and GO
+
+
 ## Contents
 
 * [TimeLine](timeline.md)
@@ -14,7 +17,7 @@
 
 
 
-## If you've decided to join:
+## If you want to join:
 
 0.  Check out [the Official Site](http://100daysofcode.com/) for the #100DaysOfCode movement. Connect with others on the platform of your choice from this list: www.100DaysOfCode.com/connect
     Also, [here](https://www.100daysofcode.com/slack) is a invite link to the 100DaysOfCode Slack channel
