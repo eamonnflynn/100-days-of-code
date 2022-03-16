@@ -1,7 +1,7 @@
 |**Day:pushpin:**|**Date &nbsp;:calendar:**|**Lessons/Tasks Done :alarm_clock:**| **Reference Links :link:**|
 |------|-----------------|--------------------|---------------------|
 |Day 0| |  | |
-|Day 1| |  | |
+|Day 1| 15th March 2022| Setup Blazor (Server) Project | |
 |Day 2| |  | |
 |Day 3| |  | |
 |Day 4| |  | |
