@@ -1,0 +1,48 @@
+﻿@page "/fetchpeople"
+
+<PageTitle>People Data</PageTitle>
+
+@using BlazorApp1.Data
+@inject PersonApiService personApiService
+
+<h1>People Data</h1>
+
+<p>This component demonstrates fetching data from a service which calls an Api.</p>
+
+@if (people == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table is-striped">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Gender</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var people in people)
+            {
+                <tr>
+                    <td>@people.name.first</td>
+                    <td>@people.name.last</td>
+                    <td>@people.gender</td>
+                    <td>@people.email</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Person[]? people;
+
+    protected override async Task OnInitializedAsync()
+    {
+        people = await personApiService.GetPeopleAsync();
+    }
+}

@@ -1,0 +1,52 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>BlazorApp1</PageTitle>
+
+<div class="page ">
+
+<div class="container">
+<div class="columns">
+    <div class="column is-3 ">
+        <aside class="menu is-hidden-mobile">
+            <NavMenu/>
+        </aside>
+    </div>
+
+    <div class="column is-9">
+        <main>
+            <!-- START NAV -->
+            <nav  class="navbar py-4" style="background-color: transparent;">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <NavLink class="navbar-item brand-text" href="" Match="NavLinkMatch.All">
+                            Home
+                        </NavLink>
+                        <div class="navbar-burger burger" data-target="navMenu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div id="navMenu" class="navbar-menu">
+                        <div class="navbar-start">
+
+                            <NavLink class="navbar-item" href="https://docs.microsoft.com/aspnet/" Match="NavLinkMatch.All">
+                                About
+                            </NavLink>
+                         
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+            <!-- END NAV -->
+
+            <article class="content px-4">
+                @Body
+            </article>
+        </main>
+    </div>
+    </div>
+    </div>
+</div>
