@@ -3,8 +3,8 @@
 |Day 0| |  | |
 |Day 1| 15th March 2022| Setup Blazor (Server) Project | |
 |Day 2| 16th March 2022| Add [Bulma Css](https://bulma.io/) to Blazor project | |
-|Day 3| |  | |
-|Day 4| |  | |
+|Day 3| 19th March 2022| Basic Databinding using https://randomuser.me/api/  | |
+|Day 4| 21st March 2022 |3rd Party Components , looking at Radzen and [Blazored Modal](https://github.com/Blazored/Modal) | |
 |Day 5| |  | |
 |Day 6| |  | |
 |Day 7| |  | |

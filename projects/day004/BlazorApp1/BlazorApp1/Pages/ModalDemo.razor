@@ -1,0 +1,20 @@
+﻿@page "/modaldemo"
+
+<h1>Blazored Modal Sample</h1>
+
+<hr class="mb-5" />
+
+<p>
+    This is an example of using Blazored Modal in its most simplistic form.
+</p>
+
+
+<button @onclick="ShowModal" class="btn btn-primary">Show Modal</button>
+
+@code {
+
+    [CascadingParameter] public IModalService Modal { get; set; } = default!;
+
+    void ShowModal() => Modal.Show<Confirm>("This is Day 4 of my 100 days of code");
+
+}
